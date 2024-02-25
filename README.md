@@ -44,23 +44,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/055495b1-e4cf-4a5b-adbc-654f904e94be)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/105e6b55-feaa-4562-aec2-3654b92e59ee)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/7263c35c-a9dc-4e0e-81d3-2427d243253d)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/97f180d1-e063-4973-ae0c-d86cf8bc1288)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/dc96700e-2a1a-449b-9b9d-9cac80777895)
 
 
 #Filters
@@ -84,17 +89,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/c471fb98-5ffd-480d-881f-ab61aae4bbac)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/378a8d80-a2b4-48fc-ba29-4a32ef25d421)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/c591089e-e0de-4205-9810-32553563ac09)
 
 
 cat < newfile 
@@ -109,28 +117,33 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/47141119-f85d-4361-a4d9-375b5d21b600)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/dcf8fd62-e386-413e-bf38-af508c7d5833)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/31739b7f-f886-493a-b180-c37f01873e9b)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/aa033696-ad93-4b25-8b98-69ff4a28dd79)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/73605880-1dc5-4217-8323-8d02dc9f9670)
 
 
 
@@ -138,11 +151,14 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/473ab04f-d5c5-451c-87bc-ad79feee086f)
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/164b15e7-07fc-4e98-8623-0e8385594cb0)
 
 grep -w -n world newfile   
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/fcb22aeb-f6a9-401a-a503-e76d34e6b088)
 
 cat < newfile 
 ```
@@ -166,58 +182,71 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/f104920a-bc3a-4935-893a-205e5c20cd88)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/3dbda5a9-05a3-429c-b4a7-cd21c6c5ad0e)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/af2c89a8-8a2e-4abd-977d-9d8919e22eab)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/f32d4ac0-83ab-486f-a8d7-70c319b8c63c)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/1db9523b-4c23-4911-99f4-344b5902c50e)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/971ee8a4-61fe-4e97-9707-7004e7340fcb)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/0cb279ef-04f2-44db-8a6e-e880f3113dbd)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/30bed9f3-7f37-4db6-bc20-66596b655c34)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/2a67ff3f-2e28-448d-aeb8-3136a1cf5026)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/f6979794-e520-4318-b655-97518b39b1d2)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/84eceeaf-5a07-4691-9d52-453fe8035f37)
+
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/f5e5c820-1d24-4b30-86c7-492dbd3d922c)
 
 
 cat > file23
