@@ -1,5 +1,7 @@
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
+- Suchitra Nath
+- BTech-IT
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
@@ -1085,6 +1087,12 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/48dba329-2cd2-4e4f-a118-d06070c5b744)
+
+
+
+
+
 
 
 # RESULT:
