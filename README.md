@@ -734,7 +734,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/a3d7799f-1f7e-4857-84e5-ead31f51cf7f)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -750,7 +751,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/7aefe80b-3c06-4b3b-9265-612130207b5d)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -762,7 +764,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/3dd66eb3-98e1-4cae-998a-d4af12e1371e)
+
  
  
 cat forin1.sh 
@@ -776,7 +779,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/8f0cf911-95be-4ff2-aa68-53208b1bce83)
+
  
 cat forin2.sh 
 ```bash
@@ -802,7 +806,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/4d2e6896-c7fe-41f6-bdd7-3652f1aa1234)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -813,7 +818,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/a005690d-3f70-4981-bebc-458b7ca05862)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -847,6 +853,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/bfcae572-2a41-47dc-8de0-21e3a342a2a9)
 
 
 cat forctype.sh 
@@ -861,6 +868,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/a55cbcc7-545b-4f52-91a7-73a4224edd7b)
 
 cat forctype1.sh 
 ```bash
@@ -874,6 +882,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/0f4f3887-7d24-47c9-90a1-a83376fc5dc2)
 
 cat fornested1.sh 
 ```bash
@@ -892,6 +901,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/ef1833a2-01ce-476b-8a6a-552071f87996)
 
  
 cat forbreak.sh 
@@ -909,10 +919,10 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
 $ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
+ $ ./forbreak.sh 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/dc6f5edb-c5ad-45a4-a228-58435e16d5e5)
+
  
 cat forbreak.sh 
 ```bash
@@ -934,7 +944,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -948,6 +959,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/83724ece-69b5-4f4c-8833-9273044b30ca)
 
 
  cat exread1.sh
@@ -960,11 +972,10 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
-
-
 $ ./exread1.sh 
- 
+
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/b8e69617-a43e-487a-928c-bbd62ccb32db)
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -982,9 +993,8 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
- 
- ./funcex.sh 1 2
+./funcex.sh 1 2
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/bf37278d-6eba-4fcc-8200-6b65f245d9e4)
 
  
 cat argshift.sh
@@ -999,7 +1009,9 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/36d46125-6adf-4133-b0bb-067f5ed75be0)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1016,7 +1028,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/af6ec02b-51b9-4158-936e-1f65c1ef7747)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1029,7 +1042,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/28d2bc9f-5d69-4c0e-8b79-117b385e5f46)
+
  
 cat > nc.awk
 ```bash
@@ -1060,7 +1074,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/987d3465-7d87-4cd9-8456-a662d78e97bd)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1088,12 +1103,6 @@ fi
 ```
 ## OUTPUT 
 ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/48dba329-2cd2-4e4f-a118-d06070c5b744)
-
-
-
-
-
-
 
 # RESULT:
 The Commands are executed successfully.
