@@ -419,6 +419,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/95efb6ed-5489-4be2-82da-12953c7058f7)
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/c064f95a-ef02-4ab5-aac0-1ef8a38443d4)
 
 
 mkdir backupdir
@@ -461,6 +463,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/5b5e0260-8c83-46db-b46a-8fbff2dceb92)
 
 
 cat < scriptest.sh 
