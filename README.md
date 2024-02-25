@@ -622,6 +622,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/affaee5f-3f37-4a8e-bc5a-eec46df8b6e8)
 
 # check if a file
 cat > ifnested.sh 
@@ -671,6 +672,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/c2fe6fd4-180c-428d-b4f6-d4c3a4c95360)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -699,6 +701,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/3ba4f3fa-bbdd-49b9-b62d-ea3cadaddd6f)
 
 
 # testing compound comparisons
@@ -715,6 +718,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/f4f2036a-86c5-4109-b38d-4180317b58f7)
 
 # using the case command
 cat >casecheck.sh 
