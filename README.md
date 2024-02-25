@@ -451,6 +451,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/2cc8b147-523d-4c0f-9c43-c3e499dae71a)
 
  
 cat << stop > herecheck.txt
