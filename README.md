@@ -548,6 +548,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/a9b35836-99e0-4f3b-8a81-0556ac57f570)
 
 
 
@@ -555,6 +556,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/bd23747e-c254-48d0-88be-ef2ad6345666)
 
 
 # check file ownership
@@ -582,6 +584,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/742253cf-4671-4fcc-b625-b700d95f5112)
 
 # check if with file location
 cat>ifnested.sh 
