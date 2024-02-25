@@ -1,7 +1,7 @@
 # OS-Linux-commands-Shell-scripting
+-Suchitra Nath Btech IT
 Operating systems Lab exercise
-- Suchitra Nath
-- BTech-IT
+
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
@@ -579,6 +579,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/a9bfcb05-ebfc-4c19-b2ce-aedf89b651dd)
 
 
 # using numeric test comparisons
