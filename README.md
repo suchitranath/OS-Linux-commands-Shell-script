@@ -429,18 +429,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/03f5f014-cc0c-4052-bd6a-a4e6c082f620)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/338ef4be-e061-4dbd-bc16-f947b74f5616)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/c097019c-3393-47fd-9707-5a4dfaebf6a0)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/c6a055e6-f59d-4b3c-93a5-aa7e1ef05d1d)
 
  
 # Shell Script
@@ -503,13 +507,17 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/81b7ac43-d3bf-4b8c-8f0a-d6d27eedd990)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/9f6a0a36-37ce-4303-87a5-e8e737dddcd6)
 
 echo $?
 ## OUTPUT 
+![image](https://github.com/suchitranath/OS-Linux-commands-Shell-script/assets/145742631/f072e39f-8c85-49ff-8ef7-68f1b631eef7)
+
 ./one
 bash: ./one: Permission denied
  
